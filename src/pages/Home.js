@@ -5,6 +5,7 @@ import Banner from '../components/Banner';
 import Services from '../components/Services';
 import FeaturedRooms from '../components/FeaturedRooms';
 
+
 export default function Home() {
     return (
         <>
@@ -17,6 +18,7 @@ export default function Home() {
             </Hero>
             <Services></Services>
             <FeaturedRooms></FeaturedRooms>
+            
         </>
     );
 }
